@@ -508,6 +508,9 @@ section {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
+.section-subscribe {
+  margin-left: 93px;
+}
 .footer-btn {
   display: flex;
   align-items: center;
@@ -738,6 +741,7 @@ section {
 .check-text {
   display: flex;
   align-items: center;
+  justify-content: center;
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
