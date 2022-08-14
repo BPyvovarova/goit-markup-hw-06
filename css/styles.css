@@ -412,11 +412,11 @@ section {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.footer-section {
+.container-footer {
   padding-bottom: 0;
   padding-top: 0;
   display: flex;
-  gap: 70px;
+  justify-content: space-between;
 }
 .footer-title {
   font-weight: 700;
@@ -428,6 +428,9 @@ section {
   margin-top: 12px;
   margin-bottom: 20px;
   text-align: left;
+}
+.section-right {
+  margin-left: 70px;
 }
 .footer-soc-list {
   display: flex;
